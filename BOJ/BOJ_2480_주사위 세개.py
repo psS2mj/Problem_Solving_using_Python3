@@ -1,5 +1,4 @@
-import sys
-a, b, c = map(int, sys.stdin.readline().split())
+a, b, c = map(int, input().split())
 if a == b == c:
     print(10000+a*1000)
 elif a == b or a == c:
