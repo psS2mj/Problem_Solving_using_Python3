@@ -11,7 +11,7 @@ S = [0]
 temp = 0
 
 for i in arr:
-    temp = temp + i
+    temp += i
     S.append(temp)
 
 for i in range(M):
